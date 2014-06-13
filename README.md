@@ -1,4 +1,9 @@
-dragon_simulator
+DRAGON Simulator Environment
 ================
 
-Distributed Route Aggregation (DRAGON) Simular based on SimBGP
+Distributed Route Aggregation simulator based on SimBGP (http://www.bgpvista.com/simbgp.php)
+
+## Dependencies
+
+  - ipaddr
+  - networkx
