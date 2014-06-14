@@ -19,14 +19,16 @@ sudo easy_install ipaddr
 ```
 Install aggregation library as a shared library:
 
+On a MAC:
 ```
-On MAC:
      cd /src/lib/aggregates/
      gcc -c binary_tree.c 
      gcc -c -fPIC compute_aggregates.c
      gcc -dynamiclib -o lib_aggregates.so binary_tree.o compute_aggregates.o
+```
 
 On Linux:
+```
      cd /src/lib/aggregates/
      gcc -c -fPIC binary_tree.c 
      gcc -c -fPIC compute_aggregates.c
