@@ -23,7 +23,7 @@ On a MAC:
 ```
 cd /src/lib/aggregates/
 gcc -c binary_tree.c 
-gcc -c -fPIC compute_aggregates.c
+gcc -c compute_aggregates.c
 gcc -dynamiclib -o lib_aggregates.so binary_tree.o compute_aggregates.o
 ```
 
