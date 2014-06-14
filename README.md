@@ -16,7 +16,6 @@ Install required Python libraries (networkx & ipaddr)
 sudo apt-get install python-setuptools
 sudo easy_install networkx
 sudo easy_install ipaddr
-
 ```
 Install aggregation library as a shared library:
 
@@ -26,8 +25,6 @@ On MAC:
      gcc -c binary_tree.c 
      gcc -c -fPIC compute_aggregates.c
      gcc -dynamiclib -o lib_aggregates.so binary_tree.o compute_aggregates.o
-
-
 
 On Linux:
      cd /src/lib/aggregates/
@@ -39,5 +36,4 @@ On Linux:
 Run the unit tests:
 ```
 python test_dragon.py
-
 ```
